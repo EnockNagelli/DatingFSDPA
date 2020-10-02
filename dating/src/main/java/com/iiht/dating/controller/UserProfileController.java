@@ -25,7 +25,7 @@ import com.iiht.dating.services.ProfileService;
 
 @RestController
 @RequestMapping("/profile")
-public class ProfileController {
+public class UserProfileController {
 
 	@Autowired
 	private ProfileService profileService;
